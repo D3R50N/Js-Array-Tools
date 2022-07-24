@@ -72,7 +72,7 @@ Before using :checkered_flag:, you need to have [Node](https://nodejs.org/en/) i
 npm install --save js-array-tools
 `
 ## Usage ##
-  Inside your code, just type
+  This is a basic usage. 
 
 
 ```js
