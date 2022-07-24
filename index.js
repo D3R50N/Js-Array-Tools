@@ -43,4 +43,10 @@ jat.prototype.isIn = function isIn(value, array = this.array) {
     return !isEmpty(find(value, array));
 }
 
-module.exports = jat;
+
+
+function newJat(array=[]){
+    return new jat(array=[]);
+}
+
+module.exports = newJat;
