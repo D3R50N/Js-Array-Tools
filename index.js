@@ -34,19 +34,19 @@ jat.prototype.find = function find(value, array = this.array) {
 }
 
 jat.prototype.findFirst = function findFirst(value, array = this.array) {
-    return find(value, array)[0] ? find(value, array)[0] : -1;
+    return this.find(value, array)[0] ? this.find(value, array)[0] : -1;
 }
 jat.prototype.findLast = function findLast(value, array = this.array) {
-    return find(value, array)[lastKey(array)] ? find(value, array)[0] : -1;
+    return this.find(value, array)[this.lastKey(array)] ? this.find(value, array)[0] : -1;
 }
 jat.prototype.isIn = function isIn(value, array = this.array) {
-    return !isEmpty(find(value, array));
+    return !this.isEmpty(this.find(value, array));
 }
 
 
 
 function newJat(array=[]){
-    return new jat(array=[]);
+    return new jat(array);
 }
 
 module.exports = newJat;
