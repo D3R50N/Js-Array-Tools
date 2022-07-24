@@ -44,25 +44,25 @@
 
 <br>
 
-## :dart: About ##
+##  About ##
 
 An useful tool for strings and arrays in Javascript
 
-## :sparkles: Features ##
+##  Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+ - Feature 1;\
+ - Feature 2;\
+ - Feature 3;
 
-## :rocket: Technologies ##
+##  Technologies ##
 
 The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
 
-## :white_check_mark: Requirements ##
+##  Requirements ##
 
-Before using :checkered_flag:, you need to have [Node](https://nodejs.org/en/) installed.
+Before using , you need to have [Node](https://nodejs.org/en/) installed.
 
 
 
@@ -79,7 +79,7 @@ npm install --save js-array-tools
 const jat = require('js-array-tools');
 ```
 
-## :memo: License ##
+##  License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
