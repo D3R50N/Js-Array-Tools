@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-Describe your project
+An useful tool for strings and arrays in Javascript
 
 ## :sparkles: Features ##
 
@@ -58,40 +58,29 @@ Describe your project
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before using :checkered_flag:, you need to have [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Usage ##
 
-```bash
-# Clone this project
-$ git clone https://github.com/{{D3R50N}}/js-array-tools
+`
+npm install js-array-tools
+`
+Inside your code, just type 
+`
+const jat = require('js-array-tools');
+`
 
-# Access
-$ cd js-array-tools
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
 
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{D3R50N}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/D3R50N" target="_blank">D3R50N</a>
 
 &#xa0;
 

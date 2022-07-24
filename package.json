@@ -1,7 +1,7 @@
 {
   "name": "js-array-tools",
-  "version": "1.0.0",
-  "description": "Some easy function for strings",
+  "version": "1.0.1",
+  "description": "Some easy function for strings and array",
   "main": "index.js",
   "scripts": {
     "test": "test"
