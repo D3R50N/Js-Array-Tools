@@ -1,0 +1,31 @@
+{
+  "name": "js-array-tools",
+  "version": "1.0.0",
+  "description": "Some easy function for strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D3R50N/Js-Array-Tools.git"
+  },
+  "keywords": [
+    "string",
+    "strings",
+    "tools",
+    "tool",
+    "js",
+    "javascript",
+    "easy",
+    "char",
+    "word",
+    "words"
+  ],
+  "author": "D3R50N",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D3R50N/Js-Array-Tools/issues"
+  },
+  "homepage": "https://github.com/D3R50N/Js-Array-Tools#readme"
+}
