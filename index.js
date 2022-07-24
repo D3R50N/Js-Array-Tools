@@ -1,3 +1,10 @@
+
+class jat {
+    constructor(array = []) {
+        this.array = array;
+    }
+}
+
 function valObj(key, value, arr = []) {
     return {
         key: key,
@@ -6,11 +13,15 @@ function valObj(key, value, arr = []) {
     };
 }
 
-function isEmpty(array = []) {
+
+jat.prototype.isEmpty = function isEmpty(array = this.array) {
     return array.length == 0;
 }
 
-function find(value, array = []) {
+jat.prototype.lastKey = function lastKey(array = this.array) {
+    return array.length - 1;
+}
+jat.prototype.find = function find(value, array = this.array) {
     var out = [];
     array.forEach((val, key) => {
         if (val != value)
@@ -22,25 +33,14 @@ function find(value, array = []) {
     return out;
 }
 
-function findFirst(value, array = []) {
-
-    return find(value, array)[0];
+jat.prototype.findFirst = function findFirst(value, array = this.array) {
+    return find(value, array)[0] ? find(value, array)[0] : -1;
 }
-
-
-
-
-
-function jat() {
-    this.isEmpty = isEmpty;
-    this.find = find;
+jat.prototype.findLast = function findLast(value, array = this.array) {
+    return find(value, array)[lastKey(array)] ? find(value, array)[0] : -1;
 }
-let array = [2, 3, 4, 3, 4, 3, 5];
-let j = new jat();
-console.log('====================================');
-console.log(j.findFirst(3, array));
-console.log('====================================');
-
-
+jat.prototype.isIn = function isIn(value, array = this.array) {
+    return !isEmpty(find(value, array));
+}
 
 module.exports = jat;
