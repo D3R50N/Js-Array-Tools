@@ -1,4 +1,4 @@
-<div align="center" id="top"> 
+<div align="center" id="top">
   <img src="./.github/app.gif" alt="Js Array Tools" />
 
   &#xa0;
@@ -33,7 +33,7 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#dart-about">About</a> &#xa0; | &#xa0;
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -64,24 +64,24 @@ The following tools were used in this project:
 
 Before using :checkered_flag:, you need to have [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Usage ##
+
+
+## Getting started ##
 
 `
-npm install js-array-tools
+npm install --save js-array-tools
 `
-<br>
-Inside your code, just type 
-<br>
+## Usage ##
+  Inside your code, just type
+
 
 ```js
 const jat = require('js-array-tools');
 ```
 
-
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with :heart: by <a href="https://github.com/D3R50N" target="_blank">D3R50N</a>
 
