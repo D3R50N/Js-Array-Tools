@@ -69,10 +69,13 @@ Before using :checkered_flag:, you need to have [Node](https://nodejs.org/en/) i
 `
 npm install js-array-tools
 `
+<br>
 Inside your code, just type 
-`
+<br>
+
+```js
 const jat = require('js-array-tools');
-`
+```
 
 
 ## :memo: License ##
